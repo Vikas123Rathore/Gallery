@@ -14,7 +14,7 @@ function App() {
     <div className="bg-black min-h-screen text-white">
       <button
         onClick={getData}
-        className="bg-green-500 text-white px-4 py-2 rounded-3xl m-10"
+        className="bg-green-500 text-white px-4 py-2 rounded-3xl m-10 cursor-pointer"
       >
         Get Data
       </button>
