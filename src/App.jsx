@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState([]);
 
   const getData = async () => {
-    const response = await axios.get("https://picsum.photos/v2/list?page=40&limit=30");
+    const response = await axios.get("https://picsum.photos/v2/list?page=40&limit=20");
     setData(response.data);
     console.log(response.data);
   };
